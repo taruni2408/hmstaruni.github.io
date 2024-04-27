@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Medical History - Hospital Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Add Medical History</h1>
+        <form id="addMedicalHistoryForm">
+            <input type="date" id="date" placeholder="Date of Record" required>
+            <textarea id="conditions" placeholder="Medical Conditions" rows="3" required></textarea>
+            <textarea id="surgeries" placeholder="Past Surgeries" rows="3" required></textarea>
+            <textarea id="medication" placeholder="Medication" rows="3" required></textarea>
+            <button type="submit">Add Record</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
